@@ -1,0 +1,116 @@
+list[]
+
+l1=[23,45.2,"zarna",True]
+l1
+
+#orderd sequnce#
+l1=[23,45.2,"zarna",True,22]
+l1[4]
+
+#type#
+l1=[23,45.2,"zarna",True,22]
+type(l1[4])
+
+#mutable or changable#
+l1[0]="zarna"
+l1
+
+#itrate the list on value# 
+l1=[23,45.2,"zarna",True,22]
+for i in l1:
+    print(i)
+
+#itrate the list on index#
+l1=[23,45.2,"zarna",True,22]
+for i in range(0,3):
+    print(l1[i])
+
+#itrate the list on varible#
+l1=[23,45.2,"zarna",True,22]
+string="zarna"
+if string in l1:
+    print(True)
+
+#double list using index#
+l1=[23,45.2,"zarna",True,[23,45]]
+l1[4]
+************************************************
+#functions in list#           ??list.pop
+
+l1=[23,45.2,"zarna",True,[23,45]]
+l1.append(23)
+
+l1=[23,45.2,"zarna",True,[23,45]]
+l1.extend([23,45,"a"])
+l1
+
+l1=[23,45.2,"zarna",True,[23,45]]
+l1.insert(2,"patel")
+l1
+
+l1=[23,45.2,"zarna",True,[23,45]]
+l1.remove(23)      #by value remove value#
+l1
+
+l1=[23,45.2,"zarna",True,[23,45]]
+l1.pop(2)      #by index remove index#
+l1
+
+l1=[23,45.2,"zarna",True,[23,45]]
+l2=l1.copy()   #for duplicate list#
+l2
+
+
+l1=[23,45.2,"zarna",True,[23,45]]
+print(len(l1)) #lenth of list#
+l1
+
+
+l1=[23,45.2,"zarna",True,[23,45]]
+l1.reverse()  #reverse list#
+l1
+
+l1=[23,67,45,89]
+l1.sort() #asending order#
+l1
+
+l1=[23,67,45,89]
+l1.sort(reverse=True) #desending order#
+l1
+
+l1=[23,67,45,89]
+print(min(l1))
+l1
+
+l1=[23,67,45,89]
+print(max(l1))
+l1
+
+
+***************************************************************************************
+
+#tupple#
+immutable
+round brakets
+
+#tupple to list#
+lang=('python','php','c',(1,2,3))
+l=list(lang)
+l.append(True)
+lang=tuple(l) #list to tuppele#
+lang
+
+*************************************************************************************
+#Sets#
+set is a sequnce of item which does not allow repeted value. it is an unorderd seqnce which can add only immutable data type. the values of set are muttable only throw methods
+***********************************************************************************************
+
+#dictionaries#
+key and value
+only immutable types can be used as keys 
+
+*********************************************************************************************
+
+github
+
+git download->windows->github.com create account

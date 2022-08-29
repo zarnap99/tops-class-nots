@@ -1,0 +1,77 @@
+class: class is a block using which we can create user define dataytype.
+#syntax:class employee(type-name):
+
+---------------------------------------------------------------------
+object:object is an instance of a class.
+     using the object we can inislize properties of employees (class).
+
+-------------------------------------------------------------------------
+#types of attributes:
+instance attr are the attr whos value is assigned after creating the obj.
+
+--------------------------------------------------------------------------
+#types of methos :
+class xyz:
+    @staticmethod
+    def x():
+        print('static method')
+        
+    def y(self):
+        print('instance method')
+    @classmethod
+    def z(xyz):
+        print('class method')
+a=xyz()
+a.x()
+a.y()
+a.z()
+
+--------------------------------------------------------------------------
+ 
+#constroctor and distactor
+#constroctor
+sysntex:def __init__
+
+#distactor
+sysntex:def __del__
+
+------------------------------------------------------------------------------
+paradigms of oops
+
+encaptulation:
+encaptulation means rapping up of data into one single unit.
+example:class 
+
+abstraction:
+acsess modifiers public,private and protected 
+private: private members of a class can only be access inside that pertucler class only. denoted by __(double underscore)
+
+
+protected:
+protected members can be acssesd in the same class in which they are declaired as well as in the derived class.denoted by _(single underscore)
+
+
+public:
+public members can be accessed within the same class as well as outside the class.
+example: in a class when a var is declaied with out any underscore line when it is a public member.
+
+
+inheritace:
+extending the properties of one class into other class.
+(main property) also called base class,superclass,perent class
+(propertty after extention)also called chiled class,derived class,subclass
+
+types of inheritance:
+1.single inheritence:(base to derived class inheritence)
+2.multilevel inheritence:(level by levelinheritence)
+3.multiple inhetitence: (multiple base clss to one derived classinheritence)
+4.hirachicale inheritence:(one base class to multiple derived class )
+5.hybrid inheritence:(one base class then multiple derived classs the again base class)
+
+
+polimophism:
+
+-------------------------------------------------------------------------------
+RE(reguler expression):
+A regulr expression specifies a set of string tht machies.
+the funcs in this modules let you check if the perticuler string machies a given expression.

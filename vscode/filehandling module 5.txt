@@ -1,0 +1,27 @@
+file handling:
+
+#write file
+
+f=open('myfile.txt','w')
+f.write('hello')
+f.close()
+_______________________________________
+
+#read file
+
+f=open('myfile.txt','w')
+l=f.readlines()
+for i in l:
+  print (i)
+f.close()
+
+
+--------------------------------------------------
+exaption handling:
+
+exaption is a run time error which turminets programme abnormaly.to avoid this we handle the exaption using the try accept block.
+
+a=10
+b=0
+#c=a/b  #showing error
+c=0/10

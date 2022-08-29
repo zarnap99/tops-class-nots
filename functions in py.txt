@@ -1,0 +1,144 @@
+
+devided in 3 parts 
+inbuilt
+user define 
+annonimus
+
+
+*******************************************
+
+#in -built funcs
+eval()
+
+def:
+Python eval() function parse the expression argument and evaluate it as a python expression and runs python expression(code) within the program.
+
+Python eval() syntax
+eval(expression, globals=None, locals=None)
+
+Python eval() parameters
+expression: this string is parsed and evaluated as a Python expression
+globals (optional): a dictionary to specify the available global methods and variables.
+
+locals (optional): another dictionary to specify the available local methods and variables.
+
+***********************************************
+
+filter()
+
+************************************************
+
+map()
+
+map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
+
+The filter() method filters the given sequence with the help of a function that tests each element in the sequence to be true or not.
+
+syntax:
+
+filter(function, sequence)
+Parameters:
+function: function that tests if each element of a 
+sequence true or not.
+sequence: sequence which needs to be filtered, it can 
+be sets, lists, tuples, or containers of any iterators.
+
+Returns:
+returns an iterator that is already filtered.
+
+Syntax :
+map(fun, iter)
+
+Parameters :
+fun : It is a function to which map passes each element of given iterable.
+iter : It is a iterable which is to be mapped.
+
+*******************************************************
+zip():
+Python zip() method takes iterable or containers and returns a single iterator object, having mapped values from all the containers. 
+
+It is used to map the similar index of multiple containers so that they can be used just using a single entity. 
+
+Syntax :  zip(*iterators) 
+
+Parameters : Python iterables or containers ( list, string etc ) 
+Return Value : Returns a single iterator object, having mapped values from all the 
+containers.
+
+*************************************************************************
+#user define func#
+#function parameters(argue)
+
+#positional parameter:
+values passed throw the aruge during the func call.should be in the order of parameter in the function definiation.
+
+def addition(name,b,c): 
+    print(f'{name} is the name.{b+c}')
+
+addition ('zarna',23,45)
+
+************************************************************** 
+
+#default parameters#
+
+default argue are the values that are provided while defining funcs.
+default argues becomes optinal during the func call.
+defalut parameter will always be at the end of the perameter list.
+
+def addition(name,b,c=23): 
+    print(f'{name} is the name.{b+c}')
+
+addition ('zarna',45)
+****************************************************************
+
+#keyword parameter#
+during a func call values pass throw the argue need not be in the order of parameters in the func definiatioion.
+all the keyword argues in the function call must match the parameter in the func definition
+for ex: we can provide the name of the parametre in the func call
+
+def addition(name,b,c): 
+    print(f'{name} is the name.{b+c}')
+
+addition (b=23,name='zarna',c=45)
+
+**************************************************************
+#arbitory positional argue#
+
+for this argue an astrisk(*)is placed before the parameter in func def which can hold non keyword varlenght arge.
+this argue will be wraped up in a tuple.
+
+def add(a,z,*p): 
+    print(a,z)
+    print(p)
+    
+add(23,45,67,78)
+
+************************************************************
+#arbitory keyword argue#
+
+for arbitory keyword argue a (**)  is placed before  parameter in a func which can hold keyword variablenghth argues.
+
+def add(s,k,**p): 
+    print(p)
+    
+add(k=23,s=45,z=67,t=78,a=67,j=75)
+*****************************************************************
+#annonimus funcs#
+
+an annonimus funcs is an funcs that is defined without a name .
+normal funcs are define the using the keyword "def".
+annonimus are define using "lambda".
+that is the resion annonimus func also called lambda funcs.
+lambda funcs can have any num of arges but only one expression.
+the expression isevaluated and returned.
+lambda funcs can be useing the following syntex: "lambda arguments:expression
+
+
+
+a=lambda x:x+10
+print(a(23))
+
+#or#
+
+x=lambda a,z: a+z
+print(x(23,45))

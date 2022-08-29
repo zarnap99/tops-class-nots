@@ -1,0 +1,19 @@
+  #loop 
+while loopis a loop in which first the condition will be vallidated then if the condition is the true only then loop body will be executed.
+the above pross will continee untill the process will true.
+***************************************************
+
+for i in range (2,5,2):
+  print(i)
+
+******************************************
+reverse method
+
+for i in range (5,2,-2):
+  print(i)
+******************************************
+
+for i in range (2,5):
+   for j in range (1,6):
+  print('*',end=' ')
+print(" ")

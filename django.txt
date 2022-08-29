@@ -1,0 +1,7 @@
+
+framwork:
+pre define software macine
+
+
+sqlite
+local database 

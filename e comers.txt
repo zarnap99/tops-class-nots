@@ -1,0 +1,40 @@
+tables 
+
+product table
+-id
+-name
+-discription
+-product cost
+-product stock quntity
+-product image
+
+cart table
+-id
+-product id
+-user id
+-
+
+order table
+-id
+-order date
+-user id
+-order status
+
+order details table
+-id (primery key)
+-order id (fougain key)
+-product id (fourgain key)
+-quntity
+
+user table
+-id
+-f name
+-l name
+-email id
+-password
+-monile number
+-address
+-profile image
+
+sr no.    field name    data type    consnstrains    discription 
+
